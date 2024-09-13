@@ -1,0 +1,270 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .brand {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-left: 20px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/924/708/938/night-time-4k-desktop-high-resolution-wallpaper-preview.jpg');
+    background-size: cover;
+    background-position: center;
+    height:45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero .hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Products Section */
+.products {
+    padding: 50px 0;
+}
+
+.products .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    width: 22%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.product-item img {
+    width: 200px;
+    height: 170px;
+    border-radius: 5px;
+}
+
+.product-item h2 {
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+.product-item p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-item .btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+}
+
+.navbar .brand {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-left: 2rem;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Cart Section */
+.cart-section {
+    padding: 2rem 0;
+}
+
+.cart-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+.cart-table th, .cart-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.cart-table th {
+    background-color: #f4f4f4;
+}
+
+.cart-product {
+    display: flex;
+    align-items: center;
+}
+
+.cart-product img {
+    width: 80px;
+    margin-right: 1rem;
+}
+
+.cart-table input[type="number"] {
+    width: 50px;
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.cart-total-label {
+    text-align: right;
+    font-weight: bold;
+}
+
+.cart-actions {
+    text-align: right;
+}
+
+.cart-actions .btn {
+    background-color: #333;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-left: 1rem;
+}
+
+.cart-actions .btn.secondary {
+    background-color: #ccc;
+    color: #333;
+}
+
+.cart-actions .btn:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+.product-details img{
+    margin-top:50px;
+    width:1000px;
+    height:700px;
+    border:2px solid black;
+    border-radius:5%
+}
+.product-page {
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+}
+.product-details {
+    flex-grow:1;
+
+}
+
+.cart-section{
+    flex-grow:1;
+}
+.cart-page{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+}
